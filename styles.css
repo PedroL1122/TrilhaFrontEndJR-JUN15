@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #e53939;
+    
+}
+
+section {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 25%;
+    border: 3px solid #e53939;
+}
+
+.sobre{
+    text-align: left;
+}
+
+.motivacoes{
+    text-align: left;
+}
+
+.gostos-pessoais{
+    text-align: left;
+}
+
+.contatos-container{
+    text-align: center;
+}
+
+button {
+    background-color: #e53939;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #e53939;
+}
